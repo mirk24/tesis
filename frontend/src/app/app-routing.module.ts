@@ -5,18 +5,15 @@ import {EstacionComponent} from "./componentes/estacion/estacion.component";
 
 const routes:Routes=[
   {
-    path:'inicio',component:InicioComponent
+    path:'inicio', component: InicioComponent
   },
   {
-    path:'estacion',component:EstacionComponent
+    path:'estacion', component: EstacionComponent
   },
   {
-    path:'',pathMatch:'full',redirectTo:'inicio'
+    path:'', pathMatch:'full', redirectTo:'inicio'
   },
 ];
-
-
-const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
